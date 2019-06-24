@@ -2,6 +2,7 @@
 
 .home-container {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .img-container {
@@ -16,5 +17,5 @@ img {
 .welcome {
     margin-top: 40px;
     font-family: 'Cutive Mono', monospace;    
-    font-size: 1.2rem;
+    font-size: 17px;
 }

@@ -23,10 +23,11 @@ function About() {
                 </p>
 
                 <h2 className="heading">What Do I know?</h2>
-                <ul>
+                <ul id="tools">
                     <li>HTML5</li>
                     <li>CSS3/SCSS</li>
                     <li>JavaScript/ES6</li>
+                    <li>jQuery</li>
                     <li>React/Redux</li>
                     <li>Git/Github</li>
                 </ul>

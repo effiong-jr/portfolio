@@ -10,8 +10,8 @@ function Navbar() {
                 <h1 id="name">Effiong Bassey</h1>
                 <p id="intro">Frontend web developer based in Calabar.</p>
             </header>
-            <div id="nav-container" className="col-xs-12 col-md-6">
-                <ul id="navList">
+            <div id="nav-container" className="">
+                <ul id="navList" className="text-center">
                     <li>
                         <Link to="/">Home</Link>
                     </li>

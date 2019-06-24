@@ -7,7 +7,7 @@ import './index.css';
 function Projects() {
     return(
         <div id="projects" className="container">
-            <h2 class="heading">Here are a few projects:</h2>
+            <h2 class="heading">Projects</h2>
             <div id="projects-container" className="row text-center">
                 <div className="col-md-6 col-xs-12">
                     <a href="https://codepen.io/debull/full/pYQOYw">

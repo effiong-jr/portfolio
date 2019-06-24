@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-function Contact () {
+function Contact() {
     return (
         <div id="contact">
             <h1 className="heading">Contact:</h1>

@@ -1,19 +1,14 @@
 #about {
-    font-size: 15px;
     text-align: left;
 }
 
 .heading {
-    font-size: 35px;
+    font-size: 25px;
     color: yellow;
 }
 
-ul {
-    margin: 0px;
-    padding: 0px;
-}
 
-li {
+#tools {
     display: block;
-    margin-left: 0px;
+    list-style-type: square;
 }
