@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
 
-header {
-    margin-bottom: 20px;
-}
-#name {
-    font-family: 'Barlow', sans-serif;
-    margin-bottom: 20px;
-}
-
 #navigationBar {
     display: inline-block;
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
+
+
+header {
+    /* margin-bottom: 20px; */
+}
+#name {
+    font-family: 'Barlow', sans-serif;
+}
+
+#intro {
+    font-size: 15px;
+}
+
 
 #nav-container {
     display: flex;

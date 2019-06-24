@@ -4,8 +4,8 @@ import './index.css';
 function About() {
     return(
         <div id="about" className='container'>
-            <h1 className="heading">About</h1>
-            <main>
+            <main >
+                <h1 className="heading">About</h1>
                 <p>
                     I am a frontend web developer with a graduate level education and the skills to
                     build Sleek and Responsive User Interfaces while maintaining the W3C standards.
@@ -21,6 +21,7 @@ function About() {
                 <p>
                     <strong>My goal:</strong> to become a fullstack developer and solve problems more efficiently... with code.
                 </p>
+
                 <h2 className="heading">What Do I know?</h2>
                 <ul>
                     <li>HTML5</li>

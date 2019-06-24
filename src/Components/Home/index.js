@@ -5,7 +5,7 @@ import './index.css';
 
 function Home() {
     return(
-        <div>            
+        <div className='home-container'>            
             <div className="img-container mx-auto d-block">
                 <img className="img-fluid mx-auto d-block" src={me} alt="myImage" />
             </div>

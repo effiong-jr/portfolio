@@ -6,3 +6,8 @@
     color: rgb(197, 182, 182);
     font-size: 20px;
 }
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
