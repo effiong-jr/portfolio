@@ -1,0 +1,19 @@
+#about {
+    font-size: 15px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 35px;
+    color: yellow;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: block;
+    margin-left: 0px;
+}
