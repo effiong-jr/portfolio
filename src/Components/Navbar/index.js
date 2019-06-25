@@ -13,7 +13,7 @@ function Navbar() {
             <div id="nav-container" className="">
                 <ul id="navList" className="text-center">
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/portfolio">Home</Link>
                     </li>
                     <li>
                         <Link to="/about">About</Link>
