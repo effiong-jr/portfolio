@@ -1,4 +1,9 @@
 #contact {
-    padding: 20px;
-    min-height: 30vh;
+    margin-bottom: 10px;
+    min-height: auto;
+}
+
+#contact .heading {
+    margin-bottom: 15px;
+    padding: 0px;
 }
