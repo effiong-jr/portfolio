@@ -17,11 +17,10 @@ function App() {
           
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/portfolio' component={Home} />
           <Route path='/about' component ={About} />
           <Route path='/projects' component ={Projects} />
           <Route path='/contact' component={Contact} />
-          <Redirect to="/portfolio" />
+          <Redirect to="/" />
 
         </Switch>
         
