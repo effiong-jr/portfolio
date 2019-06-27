@@ -10,17 +10,17 @@ function Footer() {
             <div id="socialIcons">
                 <ul>
                     <li>
-                        <a href="https://twitter.com/Fyoung_Jr" target="_blank" rel="noopener noreferrer">
+                        <a href="https://twitter.com/Fyoung_Jr">
                             <FontAwesomeIcon icon={faTwitter} />
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/effiong-jr?tab=repositories" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/effiong-jr?tab=repositories">
                             <FontAwesomeIcon icon={faGithub} /> 
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/effiong-bassey/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/effiong-bassey/">
                             <FontAwesomeIcon icon={faLinkedinIn} /> 
                         </a>
                     </li>
