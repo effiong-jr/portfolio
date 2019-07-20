@@ -1,6 +1,10 @@
 #projects-container {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#projects-container > div {
+    margin-bottom: 10px;
 }
 
 #projects img {

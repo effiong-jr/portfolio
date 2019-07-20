@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
 
-.home-container {
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
 .img-container {
     max-width: 200px;
     height: auto;
@@ -15,7 +10,7 @@ img {
 }
 
 .home-container .welcome {
-    margin-top: 30px;
+    padding-top: 30px;
     font-family: 'Cutive Mono', monospace;    
     font-size: 16px;
 }
