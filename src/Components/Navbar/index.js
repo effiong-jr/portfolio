@@ -8,7 +8,7 @@ function Navbar() {
         <nav id="navigationBar">
             <header className="text-center">
                 <h1 id="name">Effiong Bassey</h1>
-                <p id="intro">Frontend web developer based in Calabar.</p>
+                <p id="intro">Frontend web developer based in Lagos.</p>
             </header>
             <div id="nav-container" className="">
                 <ul id="navList" className="text-center">
