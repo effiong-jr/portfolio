@@ -1,9 +1,10 @@
 import React from 'react';
+import { TwitterTimelineEmbed, } from 'react-twitter-embed';
 import './index.css';
 
 function About() {
     return(
-        <div id="about" className='container'>
+        <div id="about" >
             <main >
                 <h1 className="heading">About</h1>
                 <p>
@@ -32,6 +33,17 @@ function About() {
                     <li>Git/Github</li>
                 </ul>
             </main>
+            <br />
+            <section style={{ maxWidth: 500,  }}>
+                <div>
+                    <h2 className="heading">What I Tweet About.</h2>
+                <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName="Fyoung_Jr"
+                options={{height: 400}}
+                />
+                </div>
+            </section>
         </div>
     );
 }
