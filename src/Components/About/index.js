@@ -1,5 +1,4 @@
 import React from 'react';
-import { TwitterTimelineEmbed, } from 'react-twitter-embed';
 import './index.css';
 
 function About() {
@@ -15,8 +14,9 @@ function About() {
                     I learned how to code using a combination of books, online resources and the very
                     helpful developers' online community, and of course, my learning isn't slowing down. I have also acquired certification 
                     in <a href="https://www.freecodecamp.org/certification/debull/responsive-web-design">Responsive
-                    Web Design</a> and <a href="https://www.freecodecamp.org/certification/debull/javascript-algorithms-and-data-structures">
-                        JavaScript Algorithms and Data Structures</a>.
+                    Web Design</a>, <a href="https://www.freecodecamp.org/certification/debull/javascript-algorithms-and-data-structures">
+                        JavaScript Algorithms and Data Structures</a> and also a <a href="https://drive.google.com/open?id=1uvNjMNWDcVMzFp8q58iUyBRyf4ytrjlD">
+                        Frontend Course Certificate</a> from Andela Nigeria.
                 </p>
 
                 <p>
@@ -33,17 +33,7 @@ function About() {
                     <li>Git/Github</li>
                 </ul>
             </main>
-            <br />
-            <section style={{ maxWidth: 500,  }}>
-                <div>
-                    <h2 className="heading">What I Tweet About.</h2>
-                <TwitterTimelineEmbed
-                sourceType="profile"
-                screenName="Fyoung_Jr"
-                options={{height: 400}}
-                />
-                </div>
-            </section>
+            
         </div>
     );
 }

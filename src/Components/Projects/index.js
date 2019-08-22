@@ -1,4 +1,5 @@
 import React from 'react';
+import watchApp from '../../assets/projects/onlineWatchShoppingApp.PNG';
 import techDoc from '../../assets/projects/technicalDoc.PNG';
 import quoteMachine from '../../assets/projects/quoteMachine.PNG';
 import artMaker from '../../assets/projects/pixelArtMaker.PNG';
@@ -10,6 +11,12 @@ function Projects() {
         <div id="projects" className="container">
             <h2 className="heading">Projects</h2>
             <div id="projects-container" className="row text-center">
+                <div className="col-md-6 col-xs-12">
+                    <a href="https://github.com/effiong-jr/watch-store-app">
+                        <img className="img-fluid rounded mx-auto d-block" src={watchApp} alt="Watch Shopping" />
+                        <p>Online Watch Shopping App</p>
+                    </a>
+                </div>
                 <div className="col-md-6 col-xs-12">
                     <a href="https://codepen.io/debull/full/pYQOYw">
                         <img className="img-fluid rounded mx-auto d-block" src={techDoc} alt="JavaScript Documentation Project" />

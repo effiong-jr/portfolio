@@ -11,6 +11,7 @@ function Home() {
             </div>
             <div className="text-center">
                 <p className="welcome">Welcome to my personal piece of the internet.</p>
+                <p><a href="https://drive.google.com/open?id=1KX_0D1bN81fKdms2jM8eHjqxAqu3LhKO">Resume</a></p>
             </div>
         </div>
     );
