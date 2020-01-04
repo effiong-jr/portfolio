@@ -25,6 +25,7 @@ function About() {
                 <ul id="tools">
                     <li>HTML5</li>
                     <li>CSS3/SCSS</li>
+                    <li>Bootstrap 4</li>
                     <li>JavaScript/ES6</li>
                     <li>jQuery</li>
                     <li>React.js/Redux</li>
