@@ -32,8 +32,8 @@ export const projectData = [
     },
     {
         id: 4,
-        title: "Todo App with Redux",
-        desc: "A simple Todo app demonstrating CRUD functionality using React.js and Redux for state management.",
+        title: "Todo App with React & Redux",
+        desc: "A simple Todo app demonstrating CRUD functionalities using React.js and Redux for state management.",
         image: todoApp,
         demoLink: "https://effiong-todo-app-with-react-redux.netlify.com/",
         codeLink: "https://github.com/effiong-jr/Todo-App-with-React-and-Redux",

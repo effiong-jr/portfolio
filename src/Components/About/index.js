@@ -7,14 +7,14 @@ function About() {
             <main >
                 <h1 className="heading">About</h1>
                 <p>
-                    I am a Front End Web Developer currently based in Lagos - Nigeira, with the passion, knowledge and skills to
-                    build Sleek and Responsive User Interfaces following industry best practices.
+                    I am a Front End Web Developer currently based in Lagos - Nigeria, with the passion, knowledge and skills to
+                    build Sleek and Responsive User Interfaces following the industry's best practices.
                 </p>
                 <p>
-                    I enjoy working within a team of other like minded people, but also capable of working independently 
-                    to build interesting projects. 
+                    I enjoy working within a team of other like-minded individuals, but also capable of working independently 
+                    to to achieve goals. 
                     I am passionate about the web and technology in general, and always looking forward to the next big challenge 
-                    to broaden the boundaries of my knowledge. 
+                    to to expand my knowledge. 
                 </p>
 
                 <p>
