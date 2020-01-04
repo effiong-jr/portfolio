@@ -11,10 +11,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Router>
         <Navbar />
-        <div className="content-wrapper col-md-10 mx-auto">
+        <div className="content-wrapper col-lg-8 col-xs-12 mx-auto">
           <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/about' component ={About} />

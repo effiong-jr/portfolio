@@ -7,20 +7,18 @@ function About() {
             <main >
                 <h1 className="heading">About</h1>
                 <p>
-                    I am a Front End Web Developer with the passion and skills to
+                    I am a Front End Web Developer currently based in Lagos - Nigeira, with the passion, knowledge and skills to
                     build Sleek and Responsive User Interfaces following industry best practices.
                 </p>
                 <p>
-                    I learned how to code using a combination of books, online resources and the very
-                    helpful developers' online community, and of course, my learning isn't slowing down. I have also acquired certification 
-                    in <a href="https://www.freecodecamp.org/certification/debull/responsive-web-design">Responsive
-                    Web Design</a>, <a href="https://www.freecodecamp.org/certification/debull/javascript-algorithms-and-data-structures">
-                        JavaScript Algorithms and Data Structures</a> and also a <a href="https://drive.google.com/open?id=1uvNjMNWDcVMzFp8q58iUyBRyf4ytrjlD">
-                        Frontend Course Certificate</a> from Andela Nigeria.
+                    I enjoy working within a team of other like minded people, but also capable of working independently 
+                    to build interesting projects. 
+                    I am passionate about the web and technology in general, and always looking forward to the next big challenge 
+                    to broaden the boundaries of my knowledge. 
                 </p>
 
                 <p>
-                    <strong>My goal:</strong> to become a fullstack developer and solve problems more efficiently... with code.
+                    <strong>My goal:</strong> to become a fullstack (MERN) developer.
                 </p>
 
                 <h2 className="heading">What Do I know?</h2>

@@ -15,11 +15,11 @@ function Projects() {
 
             <div className="button-container">
                 <CustomButton className="btn">
-                    <a href={project.demoLink}>App Demo</a>
+                    <a href={project.demoLink} target="_blank"  rel="noopener noreferrer">App Demo</a>
                 </CustomButton>
 
                 <CustomButton>
-                    <a href={project.codeLink}>GitHub</a>
+                    <a href={project.codeLink} target="_blank"  rel="noopener noreferrer">Code</a>
                 </CustomButton>
 
             </div>
@@ -28,7 +28,7 @@ function Projects() {
     return(
         <div className="projects">
             <h2 className="heading">Projects</h2>
-            <div className="row text-center projects-container">
+            <div className="d-flex flex-wrap text-center projects-container">
                 {projects}
             </div>
         </div>
