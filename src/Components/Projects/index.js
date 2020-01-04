@@ -14,12 +14,16 @@ function Projects() {
             <p className="desc">{project.desc}</p>
 
             <div className="button-container">
-                <CustomButton className="btn">
-                    <a href={project.demoLink} target="_blank"  rel="noopener noreferrer">App Demo</a>
+                <CustomButton className="custom-btn">
+                    <span className="btn-text">
+                        <a href={project.demoLink} target="_blank"  rel="noopener noreferrer">Demo</a>
+                    </span>
                 </CustomButton>
 
-                <CustomButton>
-                    <a href={project.codeLink} target="_blank"  rel="noopener noreferrer">Code</a>
+                <CustomButton className="custom-btn">
+                    <span className="btn-text">
+                        <a href={project.codeLink} target="_blank"  rel="noopener noreferrer">Code</a>
+                    </span>
                 </CustomButton>
 
             </div>
