@@ -10,7 +10,7 @@ function Navbar() {
                 <h1 id="name">Effiong Bassey</h1>
                 <p id="intro">Frontend Web Developer based in Lagos, Nigeria.</p>
             </header>
-            <div id="nav-container" className="">
+            <div id="nav-container" className="col-sm-8">
                 <ul id="navList" className="text-center">
                     <li>
                         <Link to="/portfolio">Home</Link>

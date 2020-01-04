@@ -7,8 +7,8 @@ function About() {
             <main >
                 <h1 className="heading">About</h1>
                 <p>
-                    I am a frontend web developer with a graduate level education and the skills to
-                    build Sleek and Responsive User Interfaces while maintaining the W3C standards.
+                    I am a Front End Web Developer with the passion and skills to
+                    build Sleek and Responsive User Interfaces following industry best practices.
                 </p>
                 <p>
                     I learned how to code using a combination of books, online resources and the very
@@ -29,7 +29,7 @@ function About() {
                     <li>CSS3/SCSS</li>
                     <li>JavaScript/ES6</li>
                     <li>jQuery</li>
-                    <li>React/Redux</li>
+                    <li>React.js/Redux</li>
                     <li>Git/Github</li>
                 </ul>
             </main>

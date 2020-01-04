@@ -7,7 +7,7 @@ import './index.css';
 
 function Projects() {
     const projects = projectData.map( project => (
-        <div className="col-md-6 col-xs-12 project" key={project.id}>
+        <div className="project" key={project.id}>
             <div className="img-container">
                 <img className="rounded mx-auto d-block" src={project.image} alt={project.title} />
             </div>
