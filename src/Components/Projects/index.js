@@ -1,46 +1,35 @@
 import React from 'react';
-import watchApp from '../../assets/projects/onlineWatchShoppingApp.PNG';
-import techDoc from '../../assets/projects/technicalDoc.PNG';
-import quoteMachine from '../../assets/projects/quoteMachine.PNG';
-import artMaker from '../../assets/projects/pixelArtMaker.PNG';
-import todoApp from '../../assets/projects/todoApp.PNG';
+
+import CustomButton from '../CustomButton/CustomButton';
+import {projectData} from '../../assets/projectData';
+
 import './index.css';
 
 function Projects() {
+    const projects = projectData.map( project => (
+        <div className="col-md-6 col-xs-12 project" key={project.id}>
+            <div className="img-container">
+                <img className="rounded mx-auto d-block" src={project.image} alt={project.title} />
+            </div>
+            <p className="desc">{project.desc}</p>
+
+            <div className="button-container">
+                <CustomButton className="btn">
+                    <a href={project.demoLink}>App Demo</a>
+                </CustomButton>
+
+                <CustomButton>
+                    <a href={project.codeLink}>GitHub</a>
+                </CustomButton>
+
+            </div>
+        </div>
+    ))
     return(
-        <div id="projects" className="container">
+        <div className="projects">
             <h2 className="heading">Projects</h2>
-            <div id="projects-container" className="row text-center">
-                <div className="col-md-6 col-xs-12">
-                    <a href="https://github.com/effiong-jr/watch-store-app">
-                        <img className="img-fluid rounded mx-auto d-block" src={watchApp} alt="Watch Shopping" />
-                        <p>Online Watch Shopping App</p>
-                    </a>
-                </div>
-                <div className="col-md-6 col-xs-12">
-                    <a href="https://codepen.io/debull/full/pYQOYw">
-                        <img className="img-fluid rounded mx-auto d-block" src={techDoc} alt="JavaScript Documentation Project" />
-                        <p> JavaScript Documentation Project</p>
-                    </a>
-                </div>
-                <div className="col-md-6 col-xs-12">
-                    <a href="https://github.com/effiong-jr/Todo-App-with-React-and-Redux">
-                        <img className="img-fluid rounded mx-auto d-block" src={todoApp} alt="Todo App" />
-                        <p>A Simple Todo App with React and Redux</p>
-                    </a>
-                </div>
-                <div className="col-md-6 col-xs-12">
-                    <a href="https://codepen.io/debull/full/zVBgOz">
-                        <img className="img-fluid rounded mx-auto d-block" src={quoteMachine} alt="Random Quote Machine Project" />
-                        <p>Random Quote Machine</p>
-                    </a>
-                </div>
-                <div className="col-md-6 col-xs-12">
-                    <a href="https://effiong-jr.github.io/pixel_art_maker/">
-                        <img className="img-fluid rounded mx-auto d-block" src={artMaker} alt="Pixel Art Maker Project" />
-                        <p>Pixel Art Maker</p>
-                    </a>
-                </div>
+            <div className="row text-center projects-container">
+                {projects}
             </div>
         </div>
     );

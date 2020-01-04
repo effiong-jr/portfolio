@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container col-md-6 col-xs-12">
+    <div className="container col-sm-8 col-xs-12">
       <Router>
         <Navbar />
         <div className="content-wrapper">

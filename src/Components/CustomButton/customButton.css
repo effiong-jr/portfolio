@@ -1,0 +1,16 @@
+.custom-button {
+    height: 40px;
+    width: 100px;
+    border: 1px solid gray;
+}
+
+.custom-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.custom-button:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(210, 210, 214);
+}
