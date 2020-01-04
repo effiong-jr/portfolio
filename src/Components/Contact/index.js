@@ -9,7 +9,7 @@ function Contact() {
                 <li>Twitter: <a href="https://twitter.com/Fyoung_Jr">@Fyoung_Jr</a></li>
                 <li>Email: <a href="mailto:f.young.de@gmail.com">f.young.de@gmail.com</a></li>
             </ul>
-            <p>...and let's build some cool stuffs together!</p>
+            <p>...and let's build cool stuffs together!</p>
 
         </div>
     )
