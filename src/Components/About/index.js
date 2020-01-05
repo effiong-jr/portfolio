@@ -29,7 +29,7 @@ function About() {
 
                 <br />
 
-                <h5>Intern: <a href="https://hotels.ng/">HNGi6</a></h5>
+                <h5>Intern: <a href="https://hotels.ng/">HNG</a></h5>
                 <p>September 2019 - November 2019</p>
                 <p>Developed web applications as part of a team, while building a solid experience on how to 
                     use <a href="https://slack.com/">Slack</a> as a workspace tool and <a href="https://github.com/effiong-jr/">Github</a> as 
