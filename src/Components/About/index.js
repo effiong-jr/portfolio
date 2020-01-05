@@ -20,6 +20,31 @@ function About() {
                 <p>
                     <strong>My goal:</strong> to become a fullstack (MERN) developer.
                 </p>
+                
+                <br />
+
+                <h1 className="heading">Experience:</h1>
+                <h5>Front End Web Developer</h5>
+                <p>Currently building Responsive Web Applications, and utilizing the power of the internet.</p>
+
+                <br />
+
+                <h5>Intern: <a href="https://hotels.ng/">HNGi6</a></h5>
+                <p>September 2019 - November 2019</p>
+                <p>Developed web applications as part of a team, while building a solid experience on how to 
+                    use <a href="https://slack.com/">Slack</a> as a workspace tool and <a href="https://github.com/effiong-jr/">Github</a> as 
+                    a Git repository hosting service plus how to collaborate with other developers using these tools.
+                </p>
+
+                <br />
+
+                <h5>Intern: <a href="https://andela.com/">Andela</a> (Andela Learning Community with Google)</h5>
+                <p>June 2018 - August 2018</p>
+                <p>With mentorship from andela, I was able to build projects with a solid understanding of the structure of modern web development,
+                    how to work as part of a team, developed the curiosity of a software engineer and how to conduct research.
+                </p>
+
+                <br />
 
                 <h2 className="heading">What Do I know?</h2>
                 <ul id="tools">
