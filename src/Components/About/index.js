@@ -29,7 +29,7 @@ function About() {
 
                 <br />
 
-                <h5>Intern: <a href="https://hotels.ng/">HNG</a></h5>
+                <h5>Intern (Front End Developer): <a href="https://hotels.ng/">HNG</a></h5>
                 <p>September 2019 - November 2019</p>
                 <p>Developed web applications as part of a team, while building a solid experience on how to 
                     use <a href="https://slack.com/">Slack</a> as a workspace tool and <a href="https://github.com/effiong-jr/">Github</a> as 
@@ -38,7 +38,7 @@ function About() {
 
                 <br />
 
-                <h5>Intern: <a href="https://andela.com/">Andela</a> (Andela Learning Community with Google)</h5>
+                <h5>Intern (Front End Developer): <a href="https://andela.com/">Andela</a> (Andela Learning Community with Google)</h5>
                 <p>June 2018 - August 2018</p>
                 <p>With mentorship from andela, I was able to build projects with a solid understanding of the structure of modern web development,
                     how to work as part of a team, developed the curiosity of a software engineer and how to conduct research.
