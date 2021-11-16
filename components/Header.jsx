@@ -1,5 +1,5 @@
 import { GoLocation } from 'react-icons/go'
-import { BiTimer } from 'react-icons/bi'
+import { FiClock } from 'react-icons/fi'
 
 const Header = () => {
   return (
@@ -38,7 +38,7 @@ const Header = () => {
         <p className="font-semibold text-sm">
           Frontend Software Developer
           <span className="text-xs text-gray-400 block">
-            #React | #Redux-toolkit | #Redux-saga | #tailwindCSS
+            #React | #Redux-toolkit | #Redux-saga | #tailwindcss
           </span>
         </p>
         <div className="flex justify-left items-center">
@@ -47,7 +47,7 @@ const Header = () => {
           </div>
           <div className="flex items-center text-xs mt-2">
             {' '}
-            <BiTimer /> <span className="ml-1">3+ yrs. experience</span>
+            <FiClock /> <span className="ml-1">3+ yrs. experience</span>
           </div>
         </div>
       </div>
