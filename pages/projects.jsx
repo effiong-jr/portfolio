@@ -110,7 +110,7 @@ const Projects = () => {
           </p>
           <div className="inline-block mt-4">
             <a
-              href="https://github.com/effiong-jr/Natours-project"
+              href="https://natours-project-demo.netlify.app/"
               target="_blank"
               className="text-gray-400 font-semibole text-sm border-b-gray-400 border-b-2 pb-1 mr-4 
               hover:border-b-white hover:text-white transition-all duration-300"
@@ -118,7 +118,7 @@ const Projects = () => {
               <button>visit site</button>
             </a>
             <a
-              href="https://natours-project-demo.netlify.app/"
+              href="https://github.com/effiong-jr/Natours-project"
               target="_blank"
               className="text-gray-400 font-semibole text-sm border-b-gray-400 border-b-2 pb-1 mr-4 
               hover:border-b-white hover:text-white transition-all duration-300"
