@@ -16,19 +16,7 @@ const Navbar = () => {
         }`}
       >
         <Link href="/">
-          <a className="px-3">About</a>
-        </Link>
-      </div>
-
-      <div
-        className={`cursor-pointer border-b-2 pb-2.5  ${
-          router.route === '/experience'
-            ? 'transition duration-500 ease-in-out border-solid border-blue-500 text-white'
-            : 'border-transparent'
-        }`}
-      >
-        <Link href="/experience">
-          <a className="px-3">Experience</a>
+          <a className="px-3">About me</a>
         </Link>
       </div>
 
