@@ -13,10 +13,24 @@ export default function About() {
           growth mindset and to become a better software engineer overall.
         </p>
 
-        <p className="mt-10 text-sm text-gray-300">
+        <p className="mt-7 text-sm text-gray-300">
           <span className="font-bold text-md underline">Interest:</span>{' '}
           Blockchain | Solidity | Web3.
         </p>
+
+        <div className="mt-10">
+          <h3 className="font-semibold text-lg underline mb-1">
+            Tools & Skills
+          </h3>
+          <ul className="text-sm pl-7 list-disc">
+            <li className="mb-2">React / Next.js</li>
+            <li className="mb-2">Redux / Redux-toolkit</li>
+            <li className="mb-2">Bootstrap</li>
+            <li className="mb-2">TailwindCSS</li>
+            <li className="mb-2">API integration</li>
+            <li className="mb-2">Knowledge of NodeJs/Express</li>
+          </ul>
+        </div>
       </div>
     </Layout>
   )
