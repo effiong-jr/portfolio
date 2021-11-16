@@ -4,15 +4,14 @@ import { useRouter } from 'next/router'
 const Navbar = () => {
   const router = useRouter()
 
-  console.log(router.route)
   return (
     <div
-      className={`flex justify-around mt-5 font-semibold border-solid border-b-2 border-gray-600 text-sm`}
+      className={`flex w-full overflow-x-auto justify-around mt-5 font-semibold border-solid border-b-2 border-gray-600 text-gray-400 text-sm`}
     >
       <div
-        className={`cursor-pointer border-b-2 pb-1  ${
+        className={`cursor-pointer border-b-2 pb-2.5  ${
           router.route === '/'
-            ? 'transition-transform border-solid border-blue-700' //'transition duration-200 ease-in-out border-solid border-blue-700 '
+            ? 'transition duration-500 ease-in-out border-solid border-blue-500 text-white'
             : 'border-transparent'
         }`}
       >
@@ -22,9 +21,21 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`cursor-pointer border-b-2 pb-1  ${
+        className={`cursor-pointer border-b-2 pb-2.5  ${
+          router.route === '/experience'
+            ? 'transition duration-500 ease-in-out border-solid border-blue-500 text-white'
+            : 'border-transparent'
+        }`}
+      >
+        <Link href="/experience">
+          <a className="px-3">Experience</a>
+        </Link>
+      </div>
+
+      <div
+        className={`cursor-pointer border-b-2 pb-2.5  ${
           router.route === '/projects'
-            ? 'transition duration-200 ease-in-out border-solid border-blue-700 '
+            ? 'transition duration-200 ease-in-out border-solid border-blue-500 text-white'
             : 'border-transparent'
         }`}
       >
@@ -34,9 +45,9 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`cursor-pointer border-b-2 pb-1  ${
+        className={`cursor-pointer border-b-2 pb-2.5  ${
           router.route === '/contact'
-            ? 'transition duration-200 ease-in-out border-solid border-blue-700 '
+            ? 'transition duration-200 ease-in-out border-solid border-blue-500 text-white '
             : 'border-transparent'
         }`}
       >
