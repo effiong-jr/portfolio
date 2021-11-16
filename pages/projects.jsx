@@ -6,7 +6,7 @@ const Projects = () => {
     <Layout>
       <div className="flex">
         <img
-          src="/healthbanc.png"
+          src="/health-banc.png"
           alt="healthbanc"
           className=" object-cover h-40 w-32 mr-2"
         />
@@ -32,7 +32,7 @@ const Projects = () => {
 
       <div className="flex mt-10">
         <img
-          src="/djEvents.png"
+          src="/dj-events.png"
           alt="djevents"
           className=" object-cover h-40 w-32 mr-2"
         />
@@ -66,8 +66,8 @@ const Projects = () => {
 
       <div className="flex mt-10">
         <img
-          src="/hackerNews.png"
-          alt="djevents"
+          src="/hacker-news.png"
+          alt="hackerNews"
           className=" object-cover h-40 w-32 mr-2"
         />
         <div>
@@ -99,8 +99,8 @@ const Projects = () => {
 
       <div className="flex mt-10">
         <img
-          src="/natours.png"
-          alt="djevents"
+          src="/natours-img.png"
+          alt="natours"
           className=" object-cover h-40 w-32 mr-2"
         />
         <div>
@@ -131,8 +131,8 @@ const Projects = () => {
 
       <div className="flex mt-10">
         <img
-          src="/devSpaceBlog.png"
-          alt="djevents"
+          src="/dev-space-blog.png"
+          alt="devSpaceBlog"
           className=" object-cover h-40 w-32 mr-2"
         />
         <div>
