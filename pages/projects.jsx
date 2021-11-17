@@ -8,7 +8,7 @@ const Projects = () => {
         <img
           src="/health-banc.png"
           alt="healthbanc"
-          className=" object-cover h-40 w-32 mr-2"
+          className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
           <h5 className="font-bold text-xl">Health Banc</h5>
@@ -34,7 +34,7 @@ const Projects = () => {
         <img
           src="/dj-events.png"
           alt="djevents"
-          className=" object-cover h-40 w-32 mr-2"
+          className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
           <h5 className="font-bold text-xl">DJ Events</h5>
@@ -68,7 +68,7 @@ const Projects = () => {
         <img
           src="/hacker-news.png"
           alt="hackerNews"
-          className=" object-cover h-40 w-32 mr-2"
+          className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
           <h5 className="font-bold text-xl">Hacker News</h5>
@@ -101,7 +101,7 @@ const Projects = () => {
         <img
           src="/natours-img.png"
           alt="natours"
-          className=" object-cover h-40 w-32 mr-2"
+          className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
           <h5 className="font-bold text-xl">Natours</h5>
@@ -133,7 +133,7 @@ const Projects = () => {
         <img
           src="/dev-space-blog.png"
           alt="devSpaceBlog"
-          className=" object-cover h-40 w-32 mr-2"
+          className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
           <h5 className="font-bold text-xl">DevSpace Blog</h5>
