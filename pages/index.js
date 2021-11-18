@@ -6,8 +6,8 @@ export default function About() {
       <div className="text-md">
         <p className=" leading-loose">
           I am a frontend developer with a passion for building exceptional
-          digital products that delivers on business objectives with modern user
-          interfaces.
+          digital products, which satisfies on business objectives with modern
+          user interfaces.
         </p>
 
         <p className="mt-2">
@@ -23,14 +23,15 @@ export default function About() {
 
         <div className="mt-10">
           <h3 className="font-semibold text-lg underline mb-1">
-            Skills & Tools
+            Tools & Skills
           </h3>
           <ul className="text-sm pl-7 list-disc">
             <li className="mb-2">React / Next.js</li>
-            <li className="mb-2">Redux / Redux-toolkit</li>
-            <li className="mb-2">Bootstrap</li>
-            <li className="mb-2">TailwindCSS</li>
-            <li className="mb-2">API integration</li>
+            <li className="mb-2">Redux / Redux-toolkit / Redux-saga</li>
+            <li className="mb-2">
+              Bootstrap / Styled Components / TailwindCSS
+            </li>
+            <li className="mb-2">REST API integration</li>
             <li className="mb-2">Knowledge of NodeJs/Express</li>
           </ul>
         </div>
