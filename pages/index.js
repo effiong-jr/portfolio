@@ -1,3 +1,4 @@
+import { BsTools } from 'react-icons/bs'
 import Layout from '../components/Layout'
 
 export default function About() {
@@ -5,15 +6,16 @@ export default function About() {
     <Layout>
       <div className="text-md">
         <p className=" leading-loose">
-          I am a frontend developer with a passion for building exceptional
-          digital products, which satisfies on business objectives with modern
+          I am a frontend software developer with the skills and focus to build
+          exceptional digital products, which satisfies business requirements
+          while following best practices and industry standards, with modern
           user interfaces.
         </p>
 
-        <p className="mt-2">
+        <p className="mt-4">
           In my free time, I devote myself to training; I read tech blogs,
-          articles and take online courses to sustain my growth mindset and to
-          become a better software engineer overall.
+          articles and take online courses to expand my knowledge and experience
+          and to become a better software engineer overall.
         </p>
 
         <p className="mt-7 text-sm text-gray-300">
@@ -22,8 +24,13 @@ export default function About() {
         </p>
 
         <div className="mt-10">
-          <h3 className="font-semibold text-lg underline mb-1">
-            Tools & Skills
+          <h3 className="flex content-center font-semibold text-lg underline mb-1">
+            <span className="mt-1 mr-2 text-gray-500">
+              <BsTools />
+            </span>{' '}
+            <span>
+              Tools <span className="text-yellow-500 text-sm">&</span> Skills
+            </span>
           </h3>
           <ul className="text-sm pl-7 list-disc">
             <li className="mb-2">React / Next.js</li>
