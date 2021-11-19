@@ -5,7 +5,7 @@ export default function About() {
   return (
     <Layout>
       <div className="text-md">
-        <p className=" leading-loose">
+        <p className="leading-loose">
           I am a frontend software developer with the skills and focus to build
           exceptional digital products, which satisfies business requirements
           while following best practices and industry standards, with modern
