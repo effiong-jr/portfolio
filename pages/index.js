@@ -12,7 +12,7 @@ export default function About() {
           user interfaces.
         </p>
 
-        <p className="mt-4">
+        <p className="mt-4 leading-loose">
           In my free time, I devote myself to training; I read tech blogs,
           articles and take online courses to expand my knowledge and experience
           and to become a better software engineer overall.
