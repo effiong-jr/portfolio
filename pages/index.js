@@ -5,14 +5,14 @@ export default function About() {
   return (
     <Layout>
       <div className="text-md">
-        <p className=" leading-loose">
+        <p className="leading-loose">
           I am a frontend software developer with the skills and focus to build
           exceptional digital products, which satisfies business requirements
           while following best practices and industry standards, with modern
           user interfaces.
         </p>
 
-        <p className="mt-4">
+        <p className="mt-4 leading-loose">
           In my free time, I devote myself to training; I read tech blogs,
           articles and take online courses to expand my knowledge and experience
           and to become a better software engineer overall.
