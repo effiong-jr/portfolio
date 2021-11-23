@@ -101,7 +101,7 @@ const Projects = () => {
               className="text-gray-400 font-semibole text-sm border-b-gray-400 border-b-2 pb-1 mr-3 
               hover:border-b-white hover:text-white transition-all duration-300"
             >
-              <button>solidity code</button>
+              <button>solidity</button>
             </a>
           </div>
         </div>
