@@ -66,6 +66,49 @@ const Projects = () => {
 
       <div className="flex mt-10">
         <img
+          src="/wave-portal.png"
+          alt="djevents"
+          className=" object-cover h-40 w-32 mr-2 rounded-md"
+        />
+        <div>
+          <h5 className="font-bold text-xl">Wave Portal</h5>
+          <p className="text-sm">
+            An application built with Next.js and solidity that connects to the
+            user's ethereum wallet to send waves, and stand a chance to win some
+            ether. Deployed to the rinkeby testnet
+          </p>
+          <div className="inline-block mt-4">
+            <a
+              href="https://wave-portal-frontend-wine.vercel.app/"
+              target="_blank"
+              className="text-gray-400 font-semibole text-sm border-b-gray-400 border-b-2 pb-1 mr-3 
+              hover:border-b-white hover:text-white transition-all duration-300"
+            >
+              <button>visit site</button>
+            </a>
+            <a
+              href="https://github.com/effiong-jr/wave-portal-frontend"
+              target="_blank"
+              className="text-gray-400 font-semibole text-sm border-b-gray-400 border-b-2 pb-1 mr-3 
+              hover:border-b-white hover:text-white transition-all duration-300"
+            >
+              <button>react</button>
+            </a>
+
+            <a
+              href="https://github.com/effiong-jr/waveContract"
+              target="_blank"
+              className="text-gray-400 font-semibole text-sm border-b-gray-400 border-b-2 pb-1 mr-3 
+              hover:border-b-white hover:text-white transition-all duration-300"
+            >
+              <button>solidity code</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex mt-10">
+        <img
           src="/hacker-news.png"
           alt="hackerNews"
           className=" object-cover h-40 w-32 mr-2 rounded-md"
