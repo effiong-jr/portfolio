@@ -11,7 +11,7 @@ const Projects = () => {
           className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
-          <h5 className="font-bold text-xl">Health Banc</h5>
+          <h5 className="font-semibold text-lg text-yellow-300">Health Banc</h5>
           <p className="text-sm">
             Healthbanc is a first-class fully integrated digital suite of health
             solutions created to provide cutting-edge healthcare services to
@@ -37,7 +37,7 @@ const Projects = () => {
           className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
-          <h5 className="font-bold text-xl">DJ Events</h5>
+          <h5 className="font-semibold text-lg text-yellow-300">DJ Events</h5>
           <p className="text-sm">
             An application built with Next.js and Strapi Content Management
             System that allow signed in user to add events and all users to find
@@ -71,7 +71,7 @@ const Projects = () => {
           className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
-          <h5 className="font-bold text-xl">Wave Portal</h5>
+          <h5 className="font-semibold text-lg text-yellow-300">Wave Portal</h5>
           <p className="text-sm">
             An application built with Next.js and solidity that connects to the
             user's ethereum wallet to send waves, and stand a chance to win some
@@ -114,7 +114,7 @@ const Projects = () => {
           className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
-          <h5 className="font-bold text-xl">Hacker News</h5>
+          <h5 className="font-semibold text-lg text-yellow-300">Hacker News</h5>
           <p className="text-sm">
             A react application that uses the hacker news API to fetch content
             based on the current user's search input text
@@ -147,7 +147,7 @@ const Projects = () => {
           className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
-          <h5 className="font-bold text-xl">Natours</h5>
+          <h5 className="font-semibold text-lg text-yellow-300">Natours</h5>
           <p className="text-sm">
             A demo website built with HTML and CSS/SCSS for nature tourism.
           </p>
@@ -179,7 +179,9 @@ const Projects = () => {
           className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
-          <h5 className="font-bold text-xl">DevSpace Blog</h5>
+          <h5 className="font-semibold text-lg text-yellow-300">
+            DevSpace Blog
+          </h5>
           <p className="text-sm">
             An blog application built with Next.js demonstrating client site
             routing.

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { GoLocation } from 'react-icons/go'
 import { FiClock } from 'react-icons/fi'
 
@@ -13,7 +14,13 @@ const Header = () => {
       <div className="flex justify-between pr-3 relative mb-2">
         <div className="-mt-10 w-max  px-3 ">
           <div className=" rounded-full h-20 w-20 border-2 border-gray-800 border-solid overflow-hidden">
-            <img src="profilePhoto.jpg" className="max-w-full object-contain" />
+            <Image
+              src={`/profilePhoto.jpg`}
+              height={80}
+              width={80}
+              className="max-w-full object-cover"
+              alt="profile image"
+            />
           </div>
           <div className="font-bold">Effiong Bassey</div>
           <div className="-mt-2">
