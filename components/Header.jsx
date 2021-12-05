@@ -25,7 +25,7 @@ const Header = () => {
           <div className="font-bold">Effiong Bassey</div>
           <div className="-mt-2">
             <a
-              href="https://twitter.com/fyoung_de"
+              href="https://twitter.com/fyoung_jr"
               className="text-xs text-gray-300"
             >
               @fyoung_jr
