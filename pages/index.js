@@ -28,7 +28,7 @@ export default function About() {
               <BsTools />
             </span>{" "}
             <span>
-              Tools <span className="text-yellow-500 text-sm">&</span> Skills
+              Tools <span className="text-yellow-600 text-sm">&</span> Skills
             </span>
           </h3>
           <ul className="text-sm pl-7 list-disc">

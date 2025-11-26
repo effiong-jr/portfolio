@@ -37,7 +37,7 @@ const Projects = () => {
           className=" object-cover h-40 w-32 mr-2 rounded-md"
         />
         <div>
-          <h5 className="font-bold text-xl">Health Banc</h5>
+          <h5 className="font-semibold text-lg text-yellow-600">Health Banc</h5>
           <p className="text-sm">
             A one-stop platform for fitness, diagnostics, and healthy meal
             plans, tailored to help you achieve your health goals.
