@@ -5,17 +5,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div>
-      <div className="relative h-28 overflow-hidden bg-gray-900">
-        <video
-          muted
-          loop
-          autoPlay
-          playsInline
-          className="absolute top-0 left-0 w-full h-full object-cover opacity-10 pointer-events-none"
-        >
-          <source src="headerVideo.webm" type="video/webm" />
-        </video>
-      </div>
+      <div className="relative h-28 overflow-hidden bg-gray-800"></div>
 
       <div className="flex justify-between pr-3 relative mb-2">
         <div className="-mt-10 w-max  px-3 ">
