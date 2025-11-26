@@ -4,8 +4,14 @@ import { FiClock } from "react-icons/fi";
 const Header = () => {
   return (
     <div>
-      <div className="h-28 overflow-hidden bg-gray-900">
-        <video muted loop autoPlay className="opacity-10 -mt-20 ">
+      <div className="relative h-28 overflow-hidden bg-gray-900">
+        <video
+          muted
+          loop
+          autoPlay
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover opacity-10 pointer-events-none"
+        >
           <source src="headerVideo.webm" type="video/webm" />
         </video>
       </div>
