@@ -1,7 +1,7 @@
-import { FiMail } from 'react-icons/fi'
-import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FiMail } from "react-icons/fi";
+import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
-import Layout from '../components/Layout'
+import Layout from "../components/Layout";
 
 const Contact = () => {
   return (
@@ -13,7 +13,7 @@ const Contact = () => {
             target="_blank"
             className="flex items-center hover:text-blue-500 transition duration-300"
           >
-            {' '}
+            {" "}
             <FiMail /> <span className="ml-2">f.young.de@gmail.com</span>
           </a>
         </div>
@@ -24,11 +24,11 @@ const Contact = () => {
             target="_blank"
             className="flex items-center hover:text-blue-500 transition duration-300 mt-4"
           >
-            {' '}
+            {" "}
             <FaLinkedin /> <span className="ml-2">Effiong Bassey</span>
           </a>
         </div>
-        <div>
+        {/* <div>
           <a
             href="https://twitter.com/fyoung_jr"
             target="_blank"
@@ -37,7 +37,7 @@ const Contact = () => {
             {' '}
             <FaTwitter /> <span className="ml-2">@fyoung_jr</span>
           </a>
-        </div>
+        </div> */}
 
         <div>
           <a
@@ -45,13 +45,13 @@ const Contact = () => {
             target="_blank"
             className="flex items-center hover:text-blue-500 transition duration-300 mt-4"
           >
-            {' '}
+            {" "}
             <FaGithub /> <span className="ml-2">effiong-jr</span>
           </a>
         </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

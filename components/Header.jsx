@@ -1,5 +1,5 @@
-import { GoLocation } from 'react-icons/go'
-import { FiClock } from 'react-icons/fi'
+import { GoLocation } from "react-icons/go";
+import { FiClock } from "react-icons/fi";
 
 const Header = () => {
   return (
@@ -15,15 +15,7 @@ const Header = () => {
           <div className=" rounded-full h-20 w-20 border-2 border-gray-800 border-solid overflow-hidden">
             <img src="profilePhoto.jpg" className="max-w-full object-contain" />
           </div>
-          <div className="font-bold">Effiong Bassey</div>
-          <div className="-mt-2">
-            <a
-              href="https://twitter.com/fyoung_de"
-              className="text-xs text-gray-300"
-            >
-              @fyoung_jr
-            </a>
-          </div>
+          <div className="font-bold">Bassey Effiong</div>
         </div>
         <div
           className="flex items-center justify-center rounded-full border-solid border-2 border-gray-300 h-8 w-max px-5 text-xs mt-2 
@@ -38,7 +30,7 @@ const Header = () => {
         <p className="font-semibold text-sm">
           Frontend Software Developer
           <span className="text-xs text-gray-400 block">
-            #React | #Redux-toolkit | #Redux-saga | #tailwindcss
+            #ReactJs | #NextJs | #TypeScript | #Tailwindcss
           </span>
         </p>
         <div className="flex justify-left items-center">
@@ -46,8 +38,8 @@ const Header = () => {
             <GoLocation /> <span className="ml-1">Lagos, Nigeria</span>
           </div>
           <div className="flex items-center text-xs mt-2">
-            {' '}
-            <FiClock /> <span className="ml-1">3+ yrs. experience</span>
+            {" "}
+            <FiClock /> <span className="ml-1">5+ yrs. experience</span>
           </div>
         </div>
       </div>
@@ -57,7 +49,7 @@ const Header = () => {
         <div>455 Followers</div>
       </div> */}
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
