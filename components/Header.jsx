@@ -5,7 +5,9 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div>
-      <div className="relative h-28 overflow-hidden bg-gray-800"></div>
+      <div className="relative h-28 overflow-hidden bg-gray-800">
+        <img src="/bg-img.jpg" alt="" fill className="object-cover z-10" />
+      </div>
 
       <div className="flex justify-between pr-3 relative mb-2">
         <div className="-mt-10 w-max  px-3 ">
@@ -14,7 +16,7 @@ const Header = () => {
               src={`/profilePhoto.jpg`}
               height={80}
               width={80}
-              className="max-w-full object-cover"
+              className="max-w-full object-cover overflow-hidden"
               alt="profile image"
             />
           </div>
